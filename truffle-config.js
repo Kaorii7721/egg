@@ -23,7 +23,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 //const fs = require('fs');
 //const mnemonic = fs.readFileSync(".env").mnemonic.toString().trim();
 const mnemonic = require("./.env").mnemonic;
-//const mnemonic = "case try citizen thrive mansion elbow merge smooth run card loyal trouble";
+//const mnemonic = "";
 //const mnemonic_local = process.env.mnemonic_local;
 console.log('seed phrase->' + mnemonic);
 
