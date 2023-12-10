@@ -16,7 +16,7 @@ export default createStore({
     connectWallet(state) {
       if(window.ethereum) {
         //await window.ethereum.enable();
-        state.web3 = new Web3(Web3.givenProvider  || 'ws:://localhost:8545');
+        state.web3 = new Web3(Web3.givenProvider  || 'https://evm.dym.kessoku.xyz');
         //state.web3 = new Web3(Web3.givenProvider);
         //state.web3 = new Web3(Web3.currentProvider);
         state.walletAvailable = true;
